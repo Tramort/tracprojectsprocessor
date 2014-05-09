@@ -14,3 +14,13 @@ Based on http://trac-hacks.org/wiki/ComponentsProcessorMacro ,
 thanks to terry_n_brown@yahoo.com
 
 maxim.kaskevich@gmail.com
+
+Installation
+------------------------
+
+1. build egg:
+ - `git clone --progress -v "https://github.com/Tramort/tracprojectsprocessor.git" "tracprojectsprocessor"`
+ - `cd tracprojectsprocessor`
+ - `python setup.py bdist_egg`
+
+2. copy egg file from "tracprojectsprocessor/dist" to "plugins" dir in trac enviroment
